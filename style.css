@@ -1,0 +1,124 @@
+.line{
+    width: 50px;
+    height: 3px;
+    border: 0px;
+    background-color: #57addf;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    flex-direction: column;
+    margin-top: 100px;
+    height: 80%;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review, .x1, .x2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.x3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 350px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.name{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 0px 0px 5px 0px;
+}
+
+.role{
+    font-size: 13px;
+    color: #57addf;
+}
+
+.image{
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 6px -2px 0px 0px rgba(87,173,223,0.75);
+    margin: 20px 0px 15px 0px;
+}
+
+.rv{
+    margin: 15px 30px 15px 30px;
+    height: 50px;
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.top button{
+    background-color: white;
+    border: none;
+    color: rgb(87, 173, 223);
+    font-size: 25px;
+    height: 25px;
+}
+
+.sup{
+    background-color: #57addf;
+    border: none;
+    border-radius: 25px;
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sup:hover{
+    cursor: pointer;
+    background-color: rgba(87, 173, 223, 0.2);
+    color: #57addf;
+    border: 1px solid #57addf;
+}
+
+.top button:hover{
+    cursor: pointer;
+    color: #2e99d7;
+}
